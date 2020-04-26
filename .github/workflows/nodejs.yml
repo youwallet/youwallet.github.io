@@ -31,7 +31,8 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
+        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         personal_token: ${{ secrets.GITHUB_PAT }}
         publish_branch: master
-        publish_dir: ./
+        publish_dir: ./src/docs/.vuepress/dist
         allow_empty_commit: true
