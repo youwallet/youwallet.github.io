@@ -21,7 +21,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: |
-        cd src
         npm install # 相当于npm install
         npm run build --if-present
       env:
@@ -32,5 +31,5 @@ jobs:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         personal_token: ${{ secrets.GITHUB_PAT }}
         publish_branch: master
-        publish_dir: ./src/docs/.vuepress/dist
+        publish_dir: ./docs/.vuepress/dist
         allow_empty_commit: true
