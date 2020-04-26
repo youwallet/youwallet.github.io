@@ -31,5 +31,5 @@ jobs:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         personal_token: ${{ secrets.GITHUB_PAT }}
         publish_branch: master
-        publish_dir: ./docs/.vuepress/dist
+        publish_dir: ./.vuepress/dist
         allow_empty_commit: true
