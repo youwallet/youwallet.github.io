@@ -25,7 +25,10 @@ module.exports = {
     //sidebar: require('./sidebar'),  // 引入侧边栏
     sidebar: {
       '/api/': [
-            '',     /* /foo/ */
+            '', 
+            'global' 
+            'getConfigData',
+             /* /foo/ */
          ],
       '/blog/':[
         '',
