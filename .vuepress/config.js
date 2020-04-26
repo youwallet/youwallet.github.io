@@ -4,7 +4,7 @@ module.exports = {
   keywords:"以太坊、区块链、交易所、ERC20、token、代币、合约、比特币、虚拟货币",  // 关键字
   head:[   // 配置头部
       [
-          ['link', {rel:'icon', href:"/icon.png"}],
+          ['link', {rel:'icon', href:"/favicon.ico"}],
           ['meta', {'name':'viewport', content:"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;"}]
       ]
   ],
