@@ -26,9 +26,8 @@ module.exports = {
     sidebar: {
       '/api/': [
             '', 
-            'global' 
-            'getConfigData',
-             /* /foo/ */
+            'global',
+            'getConfigData'
          ],
       '/blog/':[
         '',
