@@ -27,7 +27,8 @@ module.exports = {
       '/api/': [
             '', 
             'global',
-            'getConfigData'
+            'getConfigData',
+            'approve'
          ],
       '/blog/':[
         '',

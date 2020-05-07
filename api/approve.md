@@ -1,8 +1,10 @@
-# getConfigData
 
-获取订单参数中的data - R
+# approve
+
+授权代理 - W
+
 ## Hash
-0xfeee047e
+0x095ea7b3
 
 ## 请求方式
 
@@ -10,8 +12,8 @@ POST
 ## 请求参数
 |  参数名       | 必选           | 类型  | 说明 | 
 | ------------- |:-------------:| -----:| ----- |
-| is_sell      | 是 | bytes32 | true 为卖单, false 为买单 | 
-
+| spender      | 是 | address |  代理地址 | 
+| value      | 是 | uint256 |  代理额度 | 
 ## 请求示例
 ```json
 {
@@ -26,6 +28,7 @@ POST
 ```
 
 ## 返回示例
+bool True, 返回True或者调用失败
 ```json
  {
     "error_code": 0,
