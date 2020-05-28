@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /timg.jpeg
-heroText: you wallet
+heroText: youWallet
 tagline: 去中心化数字货币交易所
 actionText: 快速上手 →
 actionLink: /api/

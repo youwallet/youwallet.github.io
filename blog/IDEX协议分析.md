@@ -1,5 +1,5 @@
 
-# IDEX协议分析
+# IDEX协议
 
 传说中全球最火的交易所IDEX，当然也要分析一把。先上链接：[IDEX](https://etherscan.io/address/0x2a0c0DBEcC7E4D658f48E01e3fA353F44050c208)。  
 相比比较复杂的Hydro合约，IDEX就比较简单粗暴了, IDEX只有一个合约Exchange。用户只需要将需要交易的Token或ether转入Exchange，然后发起挂单交易就可以了。Exchange会根据订单情况撮合交易。详细分析一下的话，IDEX知识点如下：

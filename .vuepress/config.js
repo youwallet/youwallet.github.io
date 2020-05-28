@@ -1,5 +1,6 @@
 module.exports = {
-  title: 'youwallet',
+  serviceWorker: true, // 支持PWA
+  title: 'youWallet',
   description:"以太坊",   // 描述
   keywords:"以太坊、区块链、交易所、ERC20、token、代币、合约、比特币、虚拟货币",  // 关键字
   head:[   // 配置头部
@@ -13,6 +14,7 @@ module.exports = {
     lineNumbers: true
   },
   themeConfig: {
+    logo: './logo.png',
     sidebarDepth: 1, // 侧边栏显示2级
     nav: [
       { text: '首页', link: '/' },
@@ -32,12 +34,11 @@ module.exports = {
          ],
       '/blog/':[
         '',
-        '数字货币交易所的那点事',
+        'DDEX的Hydro协议',
         'IDEX协议分析',
         'DEX',
         'youWallet',
-        {text:'xx',link:'https://mp.weixin.qq.com/s/qgXg68kQrK9Ym5eTBd4wXw'}
         ]
-    } // 引入侧边栏
+    }// 引入侧边栏
   },
 }

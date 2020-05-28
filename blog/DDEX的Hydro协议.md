@@ -1,5 +1,4 @@
-
-# DDEX的Hydro协议
+# Hydro协议
 
 经过简单分析，DDEX协议有两部分组成：
 * [Hybrid Exchange](https://etherscan.io/address/0xe2a0bfe759e2a4444442da5064ec549616fff101)
